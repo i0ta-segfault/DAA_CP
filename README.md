@@ -11,7 +11,7 @@
 agents. One of the most successful examples of ant algorithms is known as Ant Colony Optimization, or ACO. 
 
 ## The algorithm
-(describe the algorithm here)
+TODO: (describe the algorithm here)
 
 
 ## This application
