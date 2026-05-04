@@ -1,0 +1,306 @@
+{
+  "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Probability",
+    "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+    "https://en.wikipedia.org/wiki/Multi-agent",
+    "https://en.wikipedia.org/wiki/Ant",
+    "https://en.wikipedia.org/wiki/Local_search_(optimization)",
+    "https://en.wikipedia.org/wiki/Vehicle_routing_problem",
+    "https://en.wikipedia.org/wiki/Routing",
+    "https://en.wikipedia.org/wiki/Optimization_(computer_science)",
+    "https://en.wikipedia.org/wiki/Ant_colony"
+  ],
+  "https://en.wikipedia.org/wiki/Computer_science": [
+    "https://en.wikipedia.org/wiki/Computation",
+    "https://en.wikipedia.org/wiki/Information",
+    "https://en.wikipedia.org/wiki/Automation",
+    "https://en.wikipedia.org/wiki/Science",
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Theory_of_computation",
+    "https://en.wikipedia.org/wiki/Information_theory",
+    "https://en.wikipedia.org/wiki/Applied_science",
+    "https://en.wikipedia.org/wiki/Computer_architecture",
+    "https://en.wikipedia.org/wiki/Software_engineering",
+    "https://en.wikipedia.org/wiki/Computer_scientist",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms",
+    "https://en.wikipedia.org/wiki/Probability",
+    "https://en.wikipedia.org/wiki/Local_search_(optimization)",
+    "https://en.wikipedia.org/wiki/Optimization_(computer_science)",
+    "https://en.wikipedia.org/wiki/Mathematical_optimization",
+    "https://en.wikipedia.org/wiki/Problem_solving",
+    "https://en.wikipedia.org/wiki/Automated_reasoning",
+    "https://en.wikipedia.org/wiki/Heuristic_(computer_science)"
+  ],
+  "https://en.wikipedia.org/wiki/Operations_research": [
+    "https://en.wikipedia.org/wiki/British_English_language",
+    "https://en.wikipedia.org/wiki/Initialism",
+    "https://en.wikipedia.org/wiki/Management_science",
+    "https://en.wikipedia.org/wiki/Mathematical_model",
+    "https://en.wikipedia.org/wiki/Statistics",
+    "https://en.wikipedia.org/wiki/Mathematical_optimization",
+    "https://en.wikipedia.org/wiki/Decision-making",
+    "https://en.wikipedia.org/wiki/Industrial_engineering",
+    "https://en.wikipedia.org/wiki/Maxima_and_minima",
+    "https://en.wikipedia.org/wiki/World_War_II",
+    "https://en.wikipedia.org/wiki/Problem_solving",
+    "https://en.wikipedia.org/wiki/Simulation",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms",
+    "https://en.wikipedia.org/wiki/Local_search_(optimization)"
+  ],
+  "https://en.wikipedia.org/wiki/Algorithm": [
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Rigour#Mathematics",
+    "https://en.wikipedia.org/wiki/Computational_problem",
+    "https://en.wikipedia.org/wiki/Computation",
+    "https://en.wikipedia.org/wiki/Calculation",
+    "https://en.wikipedia.org/wiki/Data_processing",
+    "https://en.wikipedia.org/wiki/Conditional_(computer_programming)",
+    "https://en.wikipedia.org/wiki/Automated_decision-making",
+    "https://en.wikipedia.org/wiki/Inference",
+    "https://en.wikipedia.org/wiki/Automated_reasoning",
+    "https://en.wikipedia.org/wiki/Heuristic_(computer_science)",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms",
+    "https://en.wikipedia.org/wiki/Multi-agent",
+    "https://en.wikipedia.org/wiki/Optimization_(computer_science)",
+    "https://en.wikipedia.org/wiki/Theory_of_computation",
+    "https://en.wikipedia.org/wiki/Computer_scientist"
+  ],
+  "https://en.wikipedia.org/wiki/Probability": [
+    "https://en.wikipedia.org/wiki/Event_(probability_theory)",
+    "https://en.wikipedia.org/wiki/Probability_axioms",
+    "https://en.wikipedia.org/wiki/Statistics",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Science",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)": [
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms",
+    "https://en.wikipedia.org/wiki/Vehicle_routing_problem"
+  ],
+  "https://en.wikipedia.org/wiki/Multi-agent": [
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Ant": [
+    "https://en.wikipedia.org/wiki/Ant_colony",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Local_search_(optimization)": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Mathematical_optimization",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Vehicle_routing_problem": [
+    "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Routing": [
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Optimization_(computer_science)": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Ant_colony": [
+    "https://en.wikipedia.org/wiki/Ant",
+    "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
+  ],
+  "https://en.wikipedia.org/wiki/Computation": [
+    "https://en.wikipedia.org/wiki/Calculation",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science"
+  ],
+  "https://en.wikipedia.org/wiki/Information": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Information_theory"
+  ],
+  "https://en.wikipedia.org/wiki/Automation": [
+    "https://en.wikipedia.org/wiki/Computer_science"
+  ],
+  "https://en.wikipedia.org/wiki/Science": [
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science",
+    "https://en.wikipedia.org/wiki/Applied_science",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Probability",
+    "https://en.wikipedia.org/wiki/Problem_solving"
+  ],
+  "https://en.wikipedia.org/wiki/Theoretical_computer_science": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Computation",
+    "https://en.wikipedia.org/wiki/Science",
+    "https://en.wikipedia.org/wiki/Theory_of_computation",
+    "https://en.wikipedia.org/wiki/Computer_scientist",
+    "https://en.wikipedia.org/wiki/Computational_problem",
+    "https://en.wikipedia.org/wiki/Automated_reasoning",
+    "https://en.wikipedia.org/wiki/Empirical_sciences"
+  ],
+  "https://en.wikipedia.org/wiki/Theory_of_computation": [
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Computer_science"
+  ],
+  "https://en.wikipedia.org/wiki/Information_theory": [
+    "https://en.wikipedia.org/wiki/Information",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Statistics",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Computer_scientist"
+  ],
+  "https://en.wikipedia.org/wiki/Applied_science": [
+    "https://en.wikipedia.org/wiki/Statistics",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Science",
+    "https://en.wikipedia.org/wiki/Empirical_sciences"
+  ],
+  "https://en.wikipedia.org/wiki/Computer_architecture": [
+    "https://en.wikipedia.org/wiki/Computer_science"
+  ],
+  "https://en.wikipedia.org/wiki/Software_engineering": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Computer_scientist"
+  ],
+  "https://en.wikipedia.org/wiki/Computer_scientist": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Software_engineering",
+    "https://en.wikipedia.org/wiki/Information_theory",
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science"
+  ],
+  "https://en.wikipedia.org/wiki/British_English_language": [
+    "https://en.wikipedia.org/wiki/Operations_research"
+  ],
+  "https://en.wikipedia.org/wiki/Initialism": [
+    "https://en.wikipedia.org/wiki/Operations_research"
+  ],
+  "https://en.wikipedia.org/wiki/Management_science": [
+    "https://en.wikipedia.org/wiki/Mathematical_model",
+    "https://en.wikipedia.org/wiki/Statistics",
+    "https://en.wikipedia.org/wiki/Operations_research"
+  ],
+  "https://en.wikipedia.org/wiki/Mathematical_model": [
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Management_science"
+  ],
+  "https://en.wikipedia.org/wiki/Statistics": [
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Probability",
+    "https://en.wikipedia.org/wiki/Information_theory",
+    "https://en.wikipedia.org/wiki/Applied_science",
+    "https://en.wikipedia.org/wiki/Management_science",
+    "https://en.wikipedia.org/wiki/Maxima_and_minima"
+  ],
+  "https://en.wikipedia.org/wiki/Mathematical_optimization": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Maxima_and_minima",
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Local_search_(optimization)",
+    "https://en.wikipedia.org/wiki/Heuristic_(computer_science)"
+  ],
+  "https://en.wikipedia.org/wiki/Decision-making": [
+    "https://en.wikipedia.org/wiki/Problem_solving",
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Automated_decision-making"
+  ],
+  "https://en.wikipedia.org/wiki/Industrial_engineering": [
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Operations_research"
+  ],
+  "https://en.wikipedia.org/wiki/Maxima_and_minima": [
+    "https://en.wikipedia.org/wiki/Statistics",
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Mathematical_optimization"
+  ],
+  "https://en.wikipedia.org/wiki/World_War_II": [
+    "https://en.wikipedia.org/wiki/Operations_research"
+  ],
+  "https://en.wikipedia.org/wiki/Problem_solving": [
+    "https://en.wikipedia.org/wiki/Science",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Operations_research",
+    "https://en.wikipedia.org/wiki/Decision-making",
+    "https://en.wikipedia.org/wiki/Heuristic_(computer_science)"
+  ],
+  "https://en.wikipedia.org/wiki/Simulation": [
+    "https://en.wikipedia.org/wiki/Operations_research"
+  ],
+  "https://en.wikipedia.org/wiki/Mathematics": [
+    "https://en.wikipedia.org/wiki/Empirical_sciences",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Probability",
+    "https://en.wikipedia.org/wiki/Local_search_(optimization)",
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science",
+    "https://en.wikipedia.org/wiki/Theory_of_computation",
+    "https://en.wikipedia.org/wiki/Information_theory",
+    "https://en.wikipedia.org/wiki/Mathematical_model",
+    "https://en.wikipedia.org/wiki/Mathematical_optimization",
+    "https://en.wikipedia.org/wiki/Industrial_engineering",
+    "https://en.wikipedia.org/wiki/Problem_solving"
+  ],
+  "https://en.wikipedia.org/wiki/Rigour#Mathematics": [
+    "https://en.wikipedia.org/wiki/Algorithm"
+  ],
+  "https://en.wikipedia.org/wiki/Computational_problem": [
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science",
+    "https://en.wikipedia.org/wiki/Algorithm"
+  ],
+  "https://en.wikipedia.org/wiki/Calculation": [
+    "https://en.wikipedia.org/wiki/Mathematical",
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Computation"
+  ],
+  "https://en.wikipedia.org/wiki/Data_processing": [
+    "https://en.wikipedia.org/wiki/Algorithm"
+  ],
+  "https://en.wikipedia.org/wiki/Conditional_(computer_programming)": [
+    "https://en.wikipedia.org/wiki/Algorithm"
+  ],
+  "https://en.wikipedia.org/wiki/Automated_decision-making": [
+    "https://en.wikipedia.org/wiki/Algorithm",
+    "https://en.wikipedia.org/wiki/Decision-making"
+  ],
+  "https://en.wikipedia.org/wiki/Inference": [
+    "https://en.wikipedia.org/wiki/Algorithm"
+  ],
+  "https://en.wikipedia.org/wiki/Automated_reasoning": [
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science",
+    "https://en.wikipedia.org/wiki/Algorithm"
+  ],
+  "https://en.wikipedia.org/wiki/Heuristic_(computer_science)": [
+    "https://en.wikipedia.org/wiki/Mathematical_optimization",
+    "https://en.wikipedia.org/wiki/Computer_science",
+    "https://en.wikipedia.org/wiki/Problem_solving",
+    "https://en.wikipedia.org/wiki/Algorithm"
+  ],
+  "https://en.wikipedia.org/wiki/Event_(probability_theory)": [
+    "https://en.wikipedia.org/wiki/Probability"
+  ],
+  "https://en.wikipedia.org/wiki/Probability_axioms": [
+    "https://en.wikipedia.org/wiki/Probability"
+  ],
+  "https://en.wikipedia.org/wiki/Mathematical": [
+    "https://en.wikipedia.org/wiki/Empirical_sciences",
+    "https://en.wikipedia.org/wiki/Calculation"
+  ],
+  "https://en.wikipedia.org/wiki/Empirical_sciences": [
+    "https://en.wikipedia.org/wiki/Theoretical_computer_science",
+    "https://en.wikipedia.org/wiki/Applied_science",
+    "https://en.wikipedia.org/wiki/Mathematics",
+    "https://en.wikipedia.org/wiki/Mathematical"
+  ]
+}
