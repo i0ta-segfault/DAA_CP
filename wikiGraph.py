@@ -6,7 +6,6 @@ import json
 BASE_URL = "https://en.wikipedia.org"
 
 def get_valid_links(page_url, max_links):
-    """Extract valid Wikipedia links from main content."""
     try:
         res = requests.get(
             page_url,
@@ -62,7 +61,7 @@ def build_graph(start_url, max_nodes, max_links_per_page):
         neighbors = get_valid_links(current, max_links_per_page)
         graph[current] = neighbors
         for link in neighbors:
-            if link not in visited and len(visited) + len(queue) < max_nodes:
+            if link not in visited:
                 queue.append(link)
 
     # since graph is partially expanded we gotta remove edges to nodes not in graph
@@ -97,16 +96,12 @@ def check_path_exists_bfs(graph, start, target):
 
 
 if __name__ == "__main__":
-    start = "https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms"
-    try:
-        with open("graph.json", "r") as f:
-            graph = json.load(f)
-        print("Loaded graph from file")
-    except:
-        graph = build_graph(start, max_nodes=50, max_links_per_page=12)
-        with open("graph.json", "w") as f:
-            json.dump(graph, f, indent=2)
-        print("Graph built and saved")
+    start = "https://en.wikipedia.org/wiki/Star_Wars"
+    
+    graph = build_graph(start, max_nodes=50, max_links_per_page=7)
+    with open("graph.json", "w") as f:
+        json.dump(graph, f, indent=2)
+    print("Graph built and saved")
 
     print("\n--- GRAPH BUILT ---")
     for node, neighbors in list(graph.items()):
@@ -120,7 +115,7 @@ if __name__ == "__main__":
     nodes = list(graph.keys())
 
     source = nodes[0]
-    target = nodes[-1]   # or pick manually
+    target = nodes[5]
 
     path = check_path_exists_bfs(graph, source, target)
 
