@@ -111,5 +111,20 @@ P^k_{ij} =
 - Each ant also stores the current node, the path. Assuming worst case of $S_m$ path length for $N$ ants : $O(N * S_m)$
 - Total space complexity : $O(V + E + N * S_m)$
 
+## Hyperparameters and Their Effects
+
+| Hyperparameter | Meaning | Role in Algorithm | Increasing It Causes | Decreasing It Causes |
+|---|---|---|---|---|
+| $\alpha$ | Pheromone importance | Controls how strongly ants prefer edges with high pheromone concentration | Faster convergence, stronger exploitation of known paths, increased risk of converging to suboptimal paths | More random exploration, less dependence on pheromone trails |
+| $\beta$ | Heuristic importance | Controls influence of heuristic desirability $\eta_{ij}$ | Ants strongly prefer low-cost edges, greedier behaviour | Ants rely less on edge cost and behave more randomly |
+| $\rho$ | Evaporation rate | Determines how quickly pheromone decays | Faster forgetting of old paths, increased exploration, prevents stagnation | Pheromone persists longer, stronger reinforcement, greater risk of premature convergence |
+| $Q$ | Pheromone deposit constant | Determines amount of pheromone deposited by successful ants | Stronger reinforcement of successful paths, faster convergence | Weaker reinforcement, slower convergence |
+| $m$ | Number of ants | Number of ants simultaneously exploring the graph | Better exploration coverage, higher probability of finding good paths, increased computational cost | Less exploration, lower computational cost, slower discovery |
+| $S_m$ | Maximum steps per ant | Limits how many edge traversals an ant may perform before termination | Ants can explore deeper parts of graph, increased runtime and wandering | Faster termination, lower runtime, may fail to discover distant targets |
+| $W_{ij}$ | Edge weight matrix | Represents traversal cost between nodes | Larger weights reduce edge desirability | Smaller weights increase edge desirability |
+| $\eta_{ij}$ | Heuristic information | Indicates desirability of choosing edge $(i,j)$ | Higher values increase probability of edge selection | Lower values reduce probability of edge selection |
+
+---
+
 ## References
 - https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf
