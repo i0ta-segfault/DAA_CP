@@ -23,7 +23,7 @@ agents. One of the most successful examples of ant algorithms is known as Ant Co
 
 ```
 1. The probability that an ant will choose one of the nodes from the options it has is given by :
-$$
+```math
 P^k_{ij} =
 \begin{cases}
 \frac{(\tau_{ij})^\alpha (\eta_{ij})^\beta}
@@ -32,7 +32,7 @@ P^k_{ij} =
 
 0 & \text{otherwise}
 \end{cases}
-$$
+```
 
 -   where :
     - $\tau$ indicates the pheromone level deposited on graph edges
@@ -42,9 +42,9 @@ $$
 
 
 2. Similarly the pheromone level $\tau$ is indicated by
-$$
+```math
 \tau_{ij} \leftarrow (1 - \rho)\tau_{ij} + \sum_{k=1}^{m} \Delta \tau_{ij}^k
-$$
+```
 
 - where:
   - $\rho$ is the evaporation rate  
@@ -53,14 +53,14 @@ $$
 
 - The pheromone deposited is defined as:
 
-$$
+```math
 \Delta \tau_{ij}^k =
 \begin{cases}
 \frac{Q}{L_k} & \text{if ant } k \text{ used edge } (i,j) \\
 
 0 & \text{otherwise}
 \end{cases}
-$$
+```
 
 - where:
   - $Q$ is a constant  
@@ -68,9 +68,9 @@ $$
 
 
 3. The heuristic information $\eta$ is given by 
-$$
+```math
 \eta_{ij} = \frac{1}{d_{ij}}
-$$
+```
 
 - where:
   - $d_{ij}$ is the cost (or weight) of edge $(i,j)$  
@@ -84,7 +84,7 @@ $$
 ---
 1. ```wikiGraph.py``` will generate the partially expanded bidirectional unweighted graph of some wikipedia pages
 2. ```graphics_visualise.py``` drives the sim loop and invokes ```aco.py``` for each step to demonstrate ant movement, pheromone deposits and the optimal path
-3. ```graphics_visualise.py``` will, based on user input will send $\rightarrow$ hyperparameters $\rho$ (pheromone evaporation rate), $Q$ (pheromone deposit scale - a constant), $\alpha$ (pheromone importance), $\beta$ ($\eta$ heuristic importance), $N$ (the number of ants), $S_m$ (maximum number of steps) and a randomised $W_{ij}$ (the weights matrix)
+3. ```graphics_visualise.py``` will, based on user input will send $\rightarrow$ hyperparameters $\rho$ (pheromone evaporation rate), $Q$ (pheromone deposit scale - a constant), $\alpha$ (pheromone importance), $\beta$ ($\eta$ heuristic importance), $m$ (the number of ants), $S_m$ (maximum number of steps) and a randomised $W_{ij}$ (the weights matrix)
     > The weights matrix $W_{ij}$ is technically always sent to the ```aco.py```. However, since this graph is modeling Wikipedia pages, two linked pages are technically always one click / one hop away and thus the edge weight between them stays one. Hence the $W_{ij}$ matrix is just a $J$ matrix.
     
     > But, to demonstrate how some arbitrary weights, if assumed, in this graph would affect the behaviour of the ants an option is presented to the user. Choosing that, ```weights_gen.py``` will generate a completely random weights matrix $W_{ij}$ which ```aco.py``` will then use for the algorithm.
@@ -94,6 +94,22 @@ $$
 - Run ```pip install -r requirements.txt```
 - Run ```python wikiGraph.py``` to create ```graph.json```
 - Run ```graphics_visualise.py``` to run the simulation. Press M key to go back to menu, R to reset, Arrow keys UP and DOWN to manage speed and the SPACEBAR to pause/resume the simulation.
+
+## Time Complexity
+- In this application at any given node we can assume the node degree to be $d$. So the cost of computing probabilities becomes $O(d)$ per step
+- For $S_m$ steps it will be $O(S_m * d)$
+- This is done for all $m$ ants so $O(m * S_m * d)$
+- For every edge we iterate over it to simulate pheromone evaporation : $O(E)$
+- For every edge a successfult ant deposits pheromone along the edge : $O(S_m * m)$
+- Combining it all the time complexity boils down to : $O(N * S_m * d + E)$ for each iteration
+- For $I$ iterations the complexity will be $O(I(N * S_m * d + E))$
+
+## Space Complexity
+- We store the graph as an adjacency list : $O(V + E)$
+- We store pheromone for every edge : $O(E)$
+- We store weights for every edge : $O(E)$
+- Each ant also stores the current node, the path. Assuming worst case of $S_m$ path length for $N$ ants : $O(N * S_m)$
+- Total space complexity : $O(V + E + N * S_m)$
 
 ## References
 - https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf
